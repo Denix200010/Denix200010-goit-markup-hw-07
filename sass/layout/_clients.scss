@@ -1,9 +1,9 @@
-.clients-icon {
+.clients__icon {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .clients {
+  .clients__caption {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -12,7 +12,7 @@
     margin-bottom: 50px;
   }
 
-  .clients-link {
+  .clients__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -31,7 +31,7 @@
     fill: var(--accent-color);
   }
   }
-  .clients-list {
+  .clients__list {
     margin-right: 30px;
     &:last-child {
       margin-right: 0;
